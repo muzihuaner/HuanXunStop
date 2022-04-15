@@ -1,3 +1,6 @@
+#开发环境配置文件
+
+
 """
 Django settings for HuanXunStop project.
 
@@ -25,7 +28,7 @@ SECRET_KEY = 'django-insecure-(2rd(c-fe5!psp+a0)7dfoh#zw=pxumc)&v^2=s+sd9wnuerg@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
