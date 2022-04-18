@@ -4,16 +4,160 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4c2a60-a555-47a9-ab52-24ef844b65f4" name="Changes" comment="项目准备之配置开发环境">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuanXunStop/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuanXunStop/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuanXunStop/utils/jinja2_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/huanxunshop.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HuanXunStop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HuanXunStop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuanXunStop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HuanXunStop/__init__.py" afterDir="false" />
+    <list default="true" id="1b4c2a60-a555-47a9-ab52-24ef844b65f4" name="Changes" comment="配置工程日志">
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/collapse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/inlines.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/timeparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/css/jquery.pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/details/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/QQ-weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/adv01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/adv02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/bar_code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/clock.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/find-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods/goods009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/goods_450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/icons02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/interval_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/left_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/logo02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/missing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/pay_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/pic_code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/register_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/shine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/shop_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/slide01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/slide02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/slide03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/slide04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/images/time_count_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/axios-0.18.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/jquery.pagination.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/oauth_callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/order_success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/place_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/user_center_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/user_center_order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/user_center_pass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/user_center_site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuanXunStop/static/js/vue-2.5.16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HuanXunStop/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/HuanXunStop/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/欢讯商城.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/欢讯商城.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/huanxunshop.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/huanxunshop.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +189,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HuanXunStop/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HuanXunStop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -60,11 +205,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\Python\HuanXunStop\HuanXunStop" />
+      <recent name="D:\MyProject\Python\HuanXunStop" />
       <recent name="D:\MyProject\Python\HuanXunStop\HuanXunStop\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyProject\Python\HuanXunStop\HuanXunStop" />
       <recent name="D:\MyProject\Python\HuanXunStop" />
+      <recent name="D:\MyProject\Python\HuanXunStop\HuanXunStop" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
@@ -133,7 +280,7 @@
       <updated>1650007072173</updated>
       <workItem from="1650007092691" duration="6123000" />
       <workItem from="1650239285772" duration="1433000" />
-      <workItem from="1650241334642" duration="4572000" />
+      <workItem from="1650241334642" duration="7010000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目工程">
       <created>1650007623143</created>
@@ -149,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650011359029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置工程日志">
+      <created>1650246316791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650246316791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,9 +325,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="创建项目工程" />
     <MESSAGE value="项目准备之配置开发环境" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目准备之配置开发环境" />
+    <MESSAGE value="配置工程日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置工程日志" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HuanXunStop$manage.coverage" NAME="manage Coverage Results" MODIFIED="1650245454823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HuanXunStop$manage.coverage" NAME="manage Coverage Results" MODIFIED="1650249293108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
